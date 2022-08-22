@@ -1,0 +1,44 @@
+/* Styles for Navigation Section Start */
+.navbar{
+   background-color: #c6a57f; 
+}
+.offcanvas-title{
+ color: #c6a57f ;
+}
+.offcanvas-header{
+    padding-bottom: 0;
+}
+
+.navSubheading{
+    color: #c6a57f;  
+    margin-left: 60px;
+    
+}
+.navbar-brand{
+    text-align: center;
+    color: white;
+}
+
+.navbar-toggler{
+   background-color: white;
+   border-radius: 100px;
+}
+
+.navbar-nav .nav-link.active{
+    color: white;
+}
+
+.navbar-nav .nav-link.active:hover{
+    color: #c6a57f;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover{
+    color: #c6a57f;
+}
+
+
+/* Styles for Navigation Section End */
