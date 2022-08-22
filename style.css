@@ -5,18 +5,22 @@
 .offcanvas-title{
  color: #c6a57f ;
 }
+.offcanvas{
+    max-width: 300px;
+}
 .offcanvas-header{
     padding-bottom: 0;
 }
-
+ 
 .navSubheading{
     color: #c6a57f;  
     margin-left: 60px;
     
 }
 .navbar-brand{
-    text-align: center;
+    margin-left: 400px;
     color: white;
+    font-size: 30px;
 }
 
 .navbar-toggler{
@@ -34,11 +38,120 @@
 
 .nav-link {
     color: white;
+   
 }
 
 .nav-link:hover{
     color: #c6a57f;
+    
 }
 
 
+/* Social Media Links in Nav section  */
+.nav-social ul li a {
+    color: white;
+   
+}
+
+.nav-social ul li a:hover {
+color: #c6a57f;
+
+}
+
+/* Social Media Icons to display inline */
+.nav-social ul li{
+list-style: none;
+width: 35px;
+height: 35px;
+line-height: 38px;
+font-size: 16px;
+display: inline-block;
+overflow: hidden;
+position: relative;
+}
+
+div.nav-social{
+padding-left: 50px;
+padding-top: 20px;
+
+}
+
+.copyrightSection p{
+    font-size: 12px;
+    padding-left: 30px;
+}
 /* Styles for Navigation Section End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+
+@media only screen and (min-width: 200px) {
+
+    .navbar-brand{
+        margin-left: 20px;
+        color: white;
+        font-size: 30px;
+    }
+
+}
+
+
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (min-width: 700px) {
+
+        .navbar-brand{
+            margin-left: 250px;
+            color: white;
+            font-size: 30px;
+        }
+
+    }
+    
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and (min-width: 768px) {
+
+        .navbar-brand{
+            margin-left: 250px;
+            color: white;
+            font-size: 30px;
+        }
+
+
+    }
+    
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 1024px) {
+        .navbar-brand{
+            margin-left: 400px;
+            color: white;
+            font-size: 30px;
+        }
+
+    }
+
+
+    
+    
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+        .navbar-brand{
+            margin-left: 550px;
+            color: white;
+            font-size: 30px;
+        }
+
+
+    } 
+    
