@@ -1,7 +1,7 @@
-body {
+/* body {
     margin: 0;
-     
-}
+    background-color: #272727;
+} */
 /* Styles for Navigation Section Start */
 .navbar{
    background-color: #c6a57f; 
@@ -91,60 +91,102 @@ padding-top: 20px;
     font-size: 12px;
     padding-left: 30px;
 }
+
+/* End of navigation styles */
+
+/* Service section styles start */
+.mainSection{
+   background-color: #272727;
+   color: #b4bcbc;
+
+}
+.mainHeading h4{
+    color: #c6a57f;
+}
+.mainHeading{
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    color: #fff;
+    word-spacing: 3px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 400;
+}
 /* Styles for Navigation Section End */
 
 
-/* Start of slideshow styles */
-/* Overlay Slideshow text */
-  .centered {
+.parallax{
+    background-image: url('img/parallax.jpg');
+     /* Set a specific height */
+     min-height: 70vh;
+    
+     /* Create the parallax scrolling effect */
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+    }
+
+footer {
+    background-color: #272727;
+    height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* .containerr {
+    position: relative;
+    width: 100%;
+  }
+  
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
     position: absolute;
     top: 50%;
     left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    color: white;
     text-align: center;
-    font-size: 25px;
-}
+  } */
 
-.centered h1{
-    font-size: 50px;
-    letter-spacing: 0.1em;
-    font-weight: bold;
-}
-#slideShowBtn:hover{
-
-background-color: #272727 ;
-}
-
-#slideShowBtn{
-    padding: 15px 25px;
-   
-    background-color: #c5a47e;
-    position: relative;
-    z-index: 3;
-    -webkit-transition: all .4s;
-    transition: all .4s;
-    cursor: pointer;
-    overflow: hidden;
-    font-family: 'Oswald', sans-serif;
-    font-size: 14px;
-   
-    letter-spacing: 3px;
-    border-radius: 50px;
-   
-
-}
-
-#slideShowBtn h4{
-color: white;
-}
-
-/* End of slideshow styles */
-
-
-
-
-
+  .col-sm:hover{
+      background-image:url("img/daniel-chen-SoNaNOFT974-unsplash.jpg") ;
+      width: 20px;
+  }
 
 
 /* Media Queries */
