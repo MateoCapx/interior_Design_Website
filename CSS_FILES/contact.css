@@ -139,11 +139,37 @@ color: white;
     }
 
 
+#inputForm{
+    text-align: center;
+    color: white;
+}
 
+#submitBtn{
+    font-weight: 300;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    background: #c5a47e;
+    color: #fff;
+    padding: 12px 24px;
+    margin: 0;
+    position: relative;
+    font-size: 14px;
+    letter-spacing: 3px;
+}
 
+#reset{
+    font-weight: 300;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    background: #c5a47e;
+    color: #fff;
+    padding: 12px 24px;
+    margin: 0;
+    position: relative;
+    font-size: 14px;
+    letter-spacing: 3px;
 
-
-
+}
 
 
 
