@@ -117,7 +117,7 @@ padding-top: 20px;
 
 
 .parallax{
-    background-image: url('img/parallax.jpg');
+    background-image: url('../img/parallax.jpg');
      /* Set a specific height */
      min-height: 70vh;
     
@@ -129,7 +129,7 @@ padding-top: 20px;
     }
 
 footer {
-    background-color: #272727;
+    background-color: #c5a47e;
     height: 100px;
 }
 

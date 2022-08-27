@@ -1,0 +1,209 @@
+body {
+    margin: 0;
+    background-color: #272727;
+    color: #b4bcbc;
+     
+}
+/* Styles for Navigation Section Start */
+.navbar{
+   background-color: #c6a57f; 
+}
+.offcanvas-title{
+ color: #c6a57f ;
+}
+.offcanvas{
+    max-width: 300px;
+ 
+
+}
+.offcanvas-header{
+    padding-bottom: 0;
+    background-color:#272727 ; 
+}
+ .offcanvas-body{
+    background-color:#272727 ; 
+ }
+
+.navSubheading{
+    color: #c6a57f;  
+    margin-left: 60px;
+    
+}
+.navbar-brand{
+    margin-left: 400px;
+    color: white;
+    font-size: 30px;
+    
+}
+
+.navbar-toggler{
+   background-color: white;
+   border-radius: 100px;
+}
+
+.navbar-nav .nav-link.active{
+    color: white;
+}
+
+.navbar-nav .nav-link.active:hover{
+    color: #c6a57f;
+}
+
+.nav-link {
+    color: white;
+   
+}
+
+.nav-link:hover{
+    color: #c6a57f;
+    
+}
+
+
+/* Social Media Links in Nav section  */
+.nav-social ul li a {
+    color: white;
+   
+}
+
+.nav-social ul li a:hover {
+color: #c6a57f;
+
+}
+
+/* Social Media Icons to display inline */
+.nav-social ul li{
+list-style: none;
+width: 35px;
+height: 35px;
+line-height: 38px;
+font-size: 16px;
+display: inline-block;
+overflow: hidden;
+position: relative;
+}
+
+div.nav-social{
+padding-left: 50px;
+padding-top: 20px;
+
+}
+
+.copyrightSection p{
+    font-size: 12px;
+    padding-left: 30px;
+}
+/* Styles for Navigation Section End */
+
+
+.col-sm-6 h4 {
+    color: #c6a57f;
+}
+
+
+
+/* Ten Years of Service Section styles start */
+.tenYears{
+    margin-left: 70px;
+}
+.ten{
+    color:#c6a57f;
+    font-size: 160px;
+    line-height: 200px;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    color: #c5a47e;
+    margin-bottom: 0;
+}
+
+
+.small-title{
+    color:#c6a57f
+    
+}
+
+.title{
+    color: white;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    font-size: 25px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Oswald';
+    padding-left: 20px;
+}
+
+
+
+footer {
+    background-color: #c5a47e;
+    height: 100px;
+}
+
+
+
+
+
+
+
+/* Media Queries */
+
+@media only screen and (min-width: 200px) {
+
+    .navbar-brand{
+        margin-left: 20px;
+        color: white;
+        font-size: 30px;
+    }
+
+}
+
+
+    /* Small devices (portrait tablets and large phones, 600px and up) */
+    @media only screen and (min-width: 700px) {
+
+        .navbar-brand{
+            margin-left: 250px;
+            color: white;
+            font-size: 30px;
+        }
+
+    }
+    
+    /* Medium devices (landscape tablets, 768px and up) */
+    @media only screen and (min-width: 768px) {
+
+        .navbar-brand{
+            margin-left: 250px;
+            color: white;
+            font-size: 30px;
+        }
+
+
+    }
+    
+    /* Large devices (laptops/desktops, 992px and up) */
+    @media only screen and (min-width: 1024px) {
+        .navbar-brand{
+            margin-left: 400px;
+            color: white;
+            font-size: 30px;
+        }
+
+    }
+
+
+    
+    
+    /* Extra large devices (large laptops and desktops, 1200px and up) */
+    @media only screen and (min-width: 1200px) {
+        .navbar-brand{
+            margin-left: 550px;
+            color: white;
+            font-size: 30px;
+        }
+
+
+    } 
+    
